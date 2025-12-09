@@ -12,12 +12,14 @@ class House(Property):
         self.plot = plot
 
     def __str__(self):
-        return (f"House:\n"
-                f"  Area: {self.area} m2\n"
-                f"  Rooms: {self.rooms}\n"
-                f"  Price: {self.price} zł\n"
-                f"  Address: {self.address}\n"
-                f"  Plot size: {self.plot} m2")
+        return (
+            f"House:\n"
+            f"  Area: {self.area} m2\n"
+            f"  Rooms: {self.rooms}\n"
+            f"  Price: {self.price} zł\n"
+            f"  Address: {self.address}\n"
+            f"  Plot size: {self.plot} m2"
+        )
 
 
 class Flat(Property):
@@ -26,12 +28,14 @@ class Flat(Property):
         self.floor = floor
 
     def __str__(self):
-        return (f"Flat:\n"
-                f"  Area: {self.area} m2\n"
-                f"  Rooms: {self.rooms}\n"
-                f"  Price: {self.price} zł\n"
-                f"  Address: {self.address}\n"
-                f"  Floor: {self.floor}")
+        return (
+            f"Flat:\n"
+            f"  Area: {self.area} m2\n"
+            f"  Rooms: {self.rooms}\n"
+            f"  Price: {self.price} zł\n"
+            f"  Address: {self.address}\n"
+            f"  Floor: {self.floor}"
+        )
 
 
 # Tworzenie obiektów
